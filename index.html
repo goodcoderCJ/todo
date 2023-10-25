@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Todo App</title>
+</head>
+
+<body>
+  <section class="wrapper">
+    <header>
+      <section class="container header-wrapper ">
+        <div class="logo-div">
+          <p class="logo">TODO</p>
+        </div>
+        <div class="mode-wrapper"><img src="./images/icon-sun.svg" alt=""></div>
+      </section>
+    </header>
+    <main>
+      <section class="container todo-section">
+
+        <div class="todo-input">
+          <div class="circle"></div>
+          <input type="text" class="input" name="todo" placeholder="Currently typing">
+        </div>
+        <div class="todo-container">
+          <div class="todo">
+            <div class="todo-list">
+              <div class="todo-item">
+                <input type="checkbox" name="todo" class="check">
+                <p class="item">Completed online lesson on JS</p>
+              </div>
+              <div class="close"><img src="./images/icon-cross.svg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="todo-indications ">
+            <div class="info-leftandright">
+              <p>0 items left</p>
+              <div class="compute">
+                <p>All</p>
+                <p>Active</p>
+                <p>Completed</p>
+              </div>
+              <p>Clear Completed</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="mobile-compute">
+        <p>All</p>
+        <p>Active</p>
+        <p>Completed</p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer"><small>Drag and drop to reorder list</small></div>
+    </footer>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
